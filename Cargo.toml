@@ -1,0 +1,19 @@
+[package]
+name = "hackweek-instant-codecoverage"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+cc="*"
+
+[dependencies]
+notify = "6.1.1"
+tree-sitter = "0.20.10"
+tree-sitter-python = "0.20.4"
+tree-sitter-traversal = "0.1.2"
+git2 = "0.17.2"
+clap = { version = "4.3.23", features = ["derive"] }
+glob = "0.3.1"
+notify-debouncer-full = "0.3.1"
